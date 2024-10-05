@@ -91,13 +91,13 @@ html , body {
     background-color: #F2B0EA;
     border: 0px solid black;
     border-radius: 100px;
-    padding: 10px 17px;
+    padding: 11px 18px;
     font-size: 1vw;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 15px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 400;
     font-family: 'Source Serif 4';
 }
 
@@ -120,7 +120,7 @@ html , body {
 }
 
 #content button {
-    padding: 18px 25px;
+    padding: 18px 22px;
     font-weight: 600;
     border: none;
     background-color: black;
@@ -132,4 +132,28 @@ html , body {
     position: relative;
     left: 50%;
     transform: translateX(-59%);
+    margin-bottom: 60px;
+
+}
+
+
+
+
+#bottom {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+    white-space: nowrap;
+    
+}
+
+
+.elem {
+    display: inline-block;
+    height: 95%;
+    width: 310px;
+    background-color: royalblue;
+    border: 2px solid black;
+
 }
