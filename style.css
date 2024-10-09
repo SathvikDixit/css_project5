@@ -163,7 +163,7 @@ html , body {
     position: relative;
     margin-right: 30px;
     overflow: hidden;
-    /* animation-name: anime; */
+    animation-name: reena;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -184,13 +184,13 @@ html , body {
     object-position: center;
 }
 
-@keyframes anime {
+@keyframes reena {
     from {
         transform: translateX(0%);
     }
 
     to {
-        transform: translateX(-100%);
+        transform: translateX(calc(-100% - 35px));
     }
 }
 
